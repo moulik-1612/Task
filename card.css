@@ -1,0 +1,46 @@
+#emplo-testimo {
+    text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 100px;
+}
+
+#cards-holder {
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  height: 90%;
+  width: 50%;
+  border: 1px solid rgb(195, 195, 195);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: rgb(242, 242, 242);
+}
+
+.emplo-img {
+  float: left;
+  height: 150px;
+  width: 50%;
+  margin-left: 20px;
+  border-right: 1px solid rgb(179, 179, 179);
+  padding-right: 50px;
+}
+
+.emplo-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.emplo-dis {
+  margin-left: 20px;
+}
